@@ -454,13 +454,13 @@ AGUARDANDO LARGADA
 </div>
 
 <div class="card">
-<div class="muted">3 km</div>
-<div class="stat-number" id="total3km">0</div>
+<div class="muted">70 km</div>
+<div class="stat-number" id="total70km">0</div>
 </div>
 
 <div class="card">
-<div class="muted">8 km</div>
-<div class="stat-number" id="total8km">0</div>
+<div class="muted">140 km</div>
+<div class="stat-number" id="total140km">0</div>
 </div>
 
 </div>
@@ -709,8 +709,8 @@ O cadastro está liberado enquanto a prova aguarda a largada.
 
 <select id="athleteDistance">
 
-<option value="3 km">3 km</option>
-<option value="8 km">8 km</option>
+<option value="70 km">70 km</option>
+<option value="140 km">140 km</option>
 
 </select>
 
@@ -1713,7 +1713,7 @@ document.getElementById(
 
 document.getElementById(
 "athleteDistance"
-).value = "3 km";
+).value = "70 km";
 
 document.getElementById(
 "athleteCategory"
@@ -2019,7 +2019,7 @@ document.getElementById(
 "total3km"
 ).textContent =
 finishes.filter(
-item => item.distancia === "3 km"
+item => item.distancia === "70 km"
 ).length;
 
 
@@ -2027,7 +2027,7 @@ document.getElementById(
 "total8km"
 ).textContent =
 finishes.filter(
-item => item.distancia === "8 km"
+item => item.distancia === "140 km"
 ).length;
 
 
